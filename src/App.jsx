@@ -1,6 +1,3 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import Profile from "./profile";
 import Home from "./home";
@@ -17,7 +14,7 @@ const router = createBrowserRouter(
       element: <Profile />,
     },
   ],
-  { basename: import.meta.env.BASE_URL }
+  { basename: "/lucky/" }
 );
 
 export default function App() {
