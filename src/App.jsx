@@ -1,6 +1,11 @@
-import "./App.css";
+// import bootstrap
+import "bootstrap/dist/css/bootstrap.min.css";
+// Import our custom CSS
+import './scss/styles.scss'
+
 import Profile from "./profile";
 import Home from "./home";
+
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 const router = createBrowserRouter(
@@ -19,7 +24,7 @@ const router = createBrowserRouter(
 
 export default function App() {
   return (
-    <div className="App">
+    <div className="container">
       <RouterProvider router={router} />
     </div>
   );
