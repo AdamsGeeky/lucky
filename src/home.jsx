@@ -1,5 +1,6 @@
 import Nav from "./nav";
 import logo from "./assets/react.svg";
+import Profile from "./profile";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       </div>
     </div>
   </div>
+  <Profile/>
     </>
   );
 }
